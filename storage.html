@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage</title>
+  </head>
+  <body>
+    <div>
+      <h1>local storage</h1>
+      <input type="text" id="storage-id" placeholder="storage id" />
+      <input type="text" id="storage-value" placeholder="storage value" />
+      <button onclick="addToLocalStorage()">Add to local storage</button>
+    </div>
+    <div>
+        <h1>section storage</h1>
+        <input type="text" id="session-id" placeholder="section id">
+        <input type="text" id="session-value" placeholder="section value">
+        <button onclick="addToSessionStorage()">Add to section storage</button>
+    </div>
+    <script src="storage.js"></script>
+  </body>
+</html>
